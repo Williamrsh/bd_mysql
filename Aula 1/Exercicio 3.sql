@@ -23,4 +23,4 @@ values ("Pedro",12,'M', "2 A",8.0),
 select * from tb_estudantes where nota > 7;
 select * from tb_estudantes where nota < 7;
 
-update tb_estudantes set nota=10 where id=1;
+update tb_estudantes set nota=10 where id = 1;

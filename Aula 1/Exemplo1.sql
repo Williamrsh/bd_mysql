@@ -17,7 +17,7 @@ create table tb_produtos(
    
    update tb_produtos set preco= 6.00 where id =2;
    
-   delete from tb_produtos where  id =5;
+   delete from tb_produtos where  id = 5;
    SET SQL_SAFE_UPDATES = 0;
    alter table tb_produtos add descricao varchar(255);
    alter table tb_produtos drop descricao;

@@ -22,4 +22,4 @@ values 	("smartphone","Samsung",212,1500),
 select * from tb_produtos where preco > 500;
 select * from tb_produtos where preco < 500;
 
-update tb_produtos set preco=6500 where id=1;
+update tb_produtos set preco=6500 where id = 1;
