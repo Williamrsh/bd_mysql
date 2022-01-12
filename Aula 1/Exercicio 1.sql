@@ -19,4 +19,4 @@ create table tb_funcionario(
 select * from tb_funcionario where  salario > 2000;
 select * from tb_funcionario where  salario < 2000;
 
-update tb_funcionario set nome="Gustavo F."  where id=1;
+update tb_funcionario set nome = "Gustavo F."  where id = 1;
