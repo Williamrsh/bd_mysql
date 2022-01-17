@@ -88,6 +88,10 @@ select * from tb_produtos  inner join tb_categorias
 on tb_categorias.id = tb_produtos.categoria_id;
 
 
-select * from tb_produtos  inner join tb_categorias
-on tb_categorias.id = tb_produtos.categoria_id;
+select * from tb_produtos  inner join tb_usuarios
+on tb_usuarios.id = tb_produtos.usuario_id;
+
+select * from tb_produtos  
+inner join tb_usuarios on tb_usuarios.id = tb_produtos.usuario_id 
+inner join tb_usuarios on tb_usuarios.id = tb_produtos.usuario_id;
 
